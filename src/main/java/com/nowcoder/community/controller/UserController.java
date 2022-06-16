@@ -160,4 +160,5 @@ public class UserController implements CommunityConstant {
     public String query(String userName){
         return "查询成功";
     }
+
 }
