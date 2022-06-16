@@ -18,6 +18,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
@@ -147,4 +148,9 @@ public class UserController implements CommunityConstant {
         return "/site/profile";
     }
 
+    @RequestMapping("/query")
+    @ResponseBody
+    public String query(String userName){
+        return "查询成功";
+    }
 }
