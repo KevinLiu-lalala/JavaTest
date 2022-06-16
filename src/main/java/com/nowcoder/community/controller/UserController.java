@@ -148,7 +148,7 @@ public class UserController implements CommunityConstant {
         return "/site/profile";
     }
 
-
+    // newly added functions
     @RequestMapping("/logout")
     @ResponseBody
     public String logout(String userName) {
