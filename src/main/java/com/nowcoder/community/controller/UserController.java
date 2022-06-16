@@ -159,5 +159,6 @@ public class UserController implements CommunityConstant {
     @ResponseBody
     public String query(String userName){
         return "查询成功";
+
     }
 }
