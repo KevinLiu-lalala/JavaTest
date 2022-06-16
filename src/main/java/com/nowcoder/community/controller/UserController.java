@@ -148,9 +148,17 @@ public class UserController implements CommunityConstant {
         return "/site/profile";
     }
 
+
     @RequestMapping("/logout")
     @ResponseBody
-    public String logout(String userName){
+    public String logout(String userName) {
         return "登出成功";
+    }
+
+    @RequestMapping("/query")
+    @ResponseBody
+    public String query(String userName){
+        return "查询成功";
+
     }
 }
