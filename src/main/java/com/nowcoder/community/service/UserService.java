@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class UserService implements CommunityConstant {
-    // update the code from @Autowired
+    // update the code from @Autowired hahaha
     private final UserMapper userMapper;
 
     @Autowired
